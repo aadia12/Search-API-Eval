@@ -1,0 +1,14 @@
+# Secrets: API keys live only in .env (see .env.example for the names)
+.env
+.env.*
+!.env.example
+
+# Local environment and caches
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# Public benchmark files, downloaded automatically by benchmarks.py on first run
+data/simpleqa_verified.csv
+data/frames_test.tsv

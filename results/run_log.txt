@@ -1,0 +1,181 @@
+﻿Recent-events review: 60 approved, 0 dropped, 0 not reviewed.
+2160 jobs to run (0 already done in results.csv). Answer: gpt-6-luna, grader: gpt-6.2-sol, concurrency 5, run date November 23, 2026.
+  simpleqa: google/simpleqa-verified (HF), random 200 of 1,000, seed 42
+  frames: google/frames-benchmark test.tsv (HF), random 100 of 824, seed 42
+  recent: recent_events_2026-11.csv: 60 questions, events 2026-11-01 to 2026-11-23, primary-source answers
+batch 1/87: 25 rows, 0 errors, spent so far $0.188, 27s
+batch 2/87: 25 rows, 0 errors, spent so far $0.375, 48s
+batch 3/87: 25 rows, 0 errors, spent so far $0.579, 67s
+batch 4/87: 25 rows, 0 errors, spent so far $0.753, 94s
+batch 5/87: 25 rows, 0 errors, spent so far $0.954, 120s
+batch 6/87: 25 rows, 0 errors, spent so far $1.131, 145s
+batch 7/87: 25 rows, 0 errors, spent so far $1.314, 170s
+batch 8/87: 25 rows, 0 errors, spent so far $1.498, 202s
+batch 9/87: 25 rows, 0 errors, spent so far $1.694, 220s
+batch 10/87: 25 rows, 0 errors, spent so far $1.877, 246s
+batch 11/87: 25 rows, 0 errors, spent so far $2.049, 262s
+batch 12/87: 25 rows, 0 errors, spent so far $2.241, 290s
+batch 13/87: 25 rows, 0 errors, spent so far $2.433, 318s
+batch 14/87: 25 rows, 0 errors, spent so far $2.620, 353s
+batch 15/87: 25 rows, 0 errors, spent so far $2.809, 379s
+batch 16/87: 25 rows, 0 errors, spent so far $3.001, 410s
+batch 17/87: 25 rows, 0 errors, spent so far $3.187, 436s
+batch 18/87: 25 rows, 0 errors, spent so far $3.374, 462s
+batch 19/87: 25 rows, 0 errors, spent so far $3.548, 485s
+batch 20/87: 25 rows, 0 errors, spent so far $3.732, 503s
+  retry 1/5 in 3s (APIConnectionError: Connection error.)
+  retry 1/5 in 3s (APIConnectionError: Connection error.)
+  retry 1/5 in 3s (APIConnectionError: Connection error.)
+batch 21/87: 25 rows, 0 errors, spent so far $3.934, 800s
+batch 22/87: 25 rows, 0 errors, spent so far $4.115, 823s
+batch 23/87: 25 rows, 0 errors, spent so far $4.310, 847s
+batch 24/87: 25 rows, 0 errors, spent so far $4.484, 873s
+batch 25/87: 25 rows, 0 errors, spent so far $4.662, 895s
+batch 26/87: 25 rows, 0 errors, spent so far $4.824, 918s
+batch 27/87: 25 rows, 0 errors, spent so far $5.010, 940s
+batch 28/87: 25 rows, 0 errors, spent so far $5.192, 962s
+batch 29/87: 25 rows, 0 errors, spent so far $5.374, 987s
+batch 30/87: 25 rows, 0 errors, spent so far $5.569, 1007s
+batch 31/87: 25 rows, 0 errors, spent so far $5.756, 1038s
+batch 32/87: 25 rows, 0 errors, spent so far $5.950, 1058s
+batch 33/87: 25 rows, 0 errors, spent so far $6.140, 1079s
+batch 34/87: 25 rows, 0 errors, spent so far $6.320, 1097s
+batch 35/87: 25 rows, 0 errors, spent so far $6.523, 1117s
+batch 36/87: 25 rows, 0 errors, spent so far $6.701, 1143s
+batch 37/87: 25 rows, 0 errors, spent so far $6.892, 1169s
+  retry 1/5 in 2s (APIConnectionError: Connection error.)
+  retry 1/5 in 2s (APIConnectionError: Connection error.)
+  retry 1/5 in 3s (ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', Non)
+  retry 1/5 in 3s (APIConnectionError: Connection error.)  retry 1/5 in 3s (ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', Non)
+
+batch 38/87: 25 rows, 0 errors, spent so far $7.076, 3891s
+batch 39/87: 25 rows, 0 errors, spent so far $7.269, 3921s
+batch 40/87: 25 rows, 0 errors, spent so far $7.440, 3943s
+batch 41/87: 25 rows, 0 errors, spent so far $7.623, 3964s
+batch 42/87: 25 rows, 0 errors, spent so far $7.799, 3988s
+batch 43/87: 25 rows, 0 errors, spent so far $8.001, 4011s
+batch 44/87: 25 rows, 0 errors, spent so far $8.189, 4032s
+  retry 1/5 in 2s (APIConnectionError: Connection error.)
+Recent-events review: 60 approved, 0 dropped, 0 not reviewed.
+1060 jobs to run (1100 already done in results.csv). Answer: gpt-6-luna, grader: gpt-6.2-sol, concurrency 5, run date November 23, 2026.
+  simpleqa: google/simpleqa-verified (HF), random 200 of 1,000, seed 42
+  frames: google/frames-benchmark test.tsv (HF), random 100 of 824, seed 42
+  recent: recent_events_2026-11.csv: 60 questions, events 2026-11-01 to 2026-11-23, primary-source answers
+batch 1/43: 25 rows, 0 errors, spent so far $0.192, 67s
+batch 2/43: 25 rows, 0 errors, spent so far $0.380, 91s
+batch 3/43: 25 rows, 0 errors, spent so far $0.581, 118s
+batch 4/43: 25 rows, 0 errors, spent so far $0.768, 145s
+batch 5/43: 25 rows, 0 errors, spent so far $0.929, 180s
+batch 6/43: 25 rows, 0 errors, spent so far $1.094, 237s
+batch 7/43: 25 rows, 0 errors, spent so far $1.251, 264s
+  retry 1/5 in 3s (APIConnectionError: Connection error.)
+  retry 1/5 in 3s (APIConnectionError: Connection error.)
+batch 8/43: 25 rows, 0 errors, spent so far $1.407, 871s
+batch 9/43: 25 rows, 0 errors, spent so far $1.565, 906s
+batch 10/43: 25 rows, 0 errors, spent so far $1.722, 952s
+batch 11/43: 25 rows, 0 errors, spent so far $1.880, 1012s
+batch 12/43: 25 rows, 0 errors, spent so far $2.032, 1040s
+batch 13/43: 25 rows, 0 errors, spent so far $2.192, 1073s
+batch 14/43: 25 rows, 0 errors, spent so far $2.348, 1120s
+batch 15/43: 25 rows, 0 errors, spent so far $2.507, 1152s
+batch 16/43: 25 rows, 0 errors, spent so far $2.662, 1205s
+batch 17/43: 25 rows, 0 errors, spent so far $2.815, 1232s
+batch 18/43: 25 rows, 0 errors, spent so far $2.970, 1265s
+batch 19/43: 25 rows, 0 errors, spent so far $3.130, 1300s
+batch 20/43: 25 rows, 0 errors, spent so far $3.292, 1353s
+batch 21/43: 25 rows, 0 errors, spent so far $3.453, 1385s
+batch 22/43: 25 rows, 0 errors, spent so far $3.603, 1411s
+batch 23/43: 25 rows, 0 errors, spent so far $3.759, 1454s
+Recent-events review: 60 approved, 0 dropped, 0 not reviewed.
+485 jobs to run (1675 already done in results.csv). Answer: gpt-6-luna, grader: gpt-6.2-sol, concurrency 5, run date November 23, 2026.
+  simpleqa: google/simpleqa-verified (HF), random 200 of 1,000, seed 42
+  frames: google/frames-benchmark test.tsv (HF), random 100 of 824, seed 42
+  recent: recent_events_2026-11.csv: 60 questions, events 2026-11-01 to 2026-11-23, primary-source answers
+batch 1/20: 25 rows, 0 errors, spent so far $0.151, 32s
+batch 2/20: 25 rows, 0 errors, spent so far $0.313, 68s
+batch 3/20: 25 rows, 0 errors, spent so far $0.471, 115s
+batch 4/20: 25 rows, 0 errors, spent so far $0.627, 144s
+batch 5/20: 25 rows, 0 errors, spent so far $0.782, 182s
+batch 6/20: 25 rows, 0 errors, spent so far $0.970, 201s
+batch 7/20: 25 rows, 0 errors, spent so far $1.146, 219s
+batch 8/20: 25 rows, 0 errors, spent so far $1.345, 237s
+batch 9/20: 25 rows, 0 errors, spent so far $1.538, 258s
+batch 10/20: 25 rows, 0 errors, spent so far $1.735, 278s
+batch 11/20: 25 rows, 0 errors, spent so far $1.920, 303s
+batch 12/20: 25 rows, 0 errors, spent so far $2.120, 323s
+batch 13/20: 25 rows, 0 errors, spent so far $2.302, 342s
+batch 14/20: 25 rows, 0 errors, spent so far $2.494, 362s
+batch 15/20: 25 rows, 0 errors, spent so far $2.677, 383s
+batch 16/20: 25 rows, 0 errors, spent so far $2.856, 404s
+batch 17/20: 25 rows, 0 errors, spent so far $3.039, 427s
+batch 18/20: 25 rows, 0 errors, spent so far $3.236, 449s
+batch 19/20: 25 rows, 0 errors, spent so far $3.423, 468s
+batch 20/20: 10 rows, 0 errors, spent so far $3.504, 477s
+Done. 0 failed jobs (rerun the same command to retry them). Results: C:\Search API Evaluation\results\results.csv
+Recent-events review: 60 approved, 0 dropped, 0 not reviewed.
+Updated results.csv to the new column layout (2160 rows kept; backup: results_backup_20261123_225335.csv).
+1500 jobs to run (660 already done in results.csv). Answer: gpt-6-luna, grader: gpt-6.2-sol, concurrency 5, run date November 23, 2026.
+  simpleqa: google/simpleqa-verified (HF), random 200 of 1,000, seed 42
+  frames: google/frames-benchmark test.tsv (HF), random 100 of 824, seed 42
+  recent: recent_events_2026-11.csv: 60 questions, events 2026-11-01 to 2026-11-23, primary-source answers
+batch 1/60: 25 rows, 0 errors, spent so far $0.214, 21s
+batch 2/60: 25 rows, 0 errors, spent so far $0.427, 40s
+batch 3/60: 25 rows, 0 errors, spent so far $0.632, 58s
+batch 4/60: 25 rows, 0 errors, spent so far $0.844, 80s
+batch 5/60: 25 rows, 0 errors, spent so far $1.046, 98s
+batch 6/60: 25 rows, 0 errors, spent so far $1.257, 121s
+batch 7/60: 25 rows, 0 errors, spent so far $1.467, 139s
+batch 8/60: 25 rows, 0 errors, spent so far $1.685, 159s
+batch 9/60: 25 rows, 0 errors, spent so far $1.874, 175s
+batch 10/60: 25 rows, 0 errors, spent so far $2.080, 194s
+batch 11/60: 25 rows, 0 errors, spent so far $2.289, 212s
+batch 12/60: 25 rows, 0 errors, spent so far $2.497, 230s
+batch 13/60: 25 rows, 0 errors, spent so far $2.714, 251s
+batch 14/60: 25 rows, 0 errors, spent so far $2.921, 270s
+batch 15/60: 25 rows, 0 errors, spent so far $3.130, 289s
+batch 16/60: 25 rows, 0 errors, spent so far $3.333, 307s
+batch 17/60: 25 rows, 0 errors, spent so far $3.554, 327s
+batch 18/60: 25 rows, 0 errors, spent so far $3.765, 346s
+batch 19/60: 25 rows, 0 errors, spent so far $3.977, 363s
+batch 20/60: 25 rows, 0 errors, spent so far $4.191, 382s
+batch 21/60: 25 rows, 0 errors, spent so far $4.394, 399s
+batch 22/60: 25 rows, 0 errors, spent so far $4.587, 419s
+batch 23/60: 25 rows, 0 errors, spent so far $4.783, 439s
+batch 24/60: 25 rows, 0 errors, spent so far $4.988, 459s
+batch 25/60: 25 rows, 0 errors, spent so far $5.194, 480s
+batch 26/60: 25 rows, 0 errors, spent so far $5.398, 500s
+batch 27/60: 25 rows, 0 errors, spent so far $5.613, 519s
+batch 28/60: 25 rows, 0 errors, spent so far $5.826, 539s
+batch 29/60: 25 rows, 0 errors, spent so far $6.039, 558s
+batch 30/60: 25 rows, 0 errors, spent so far $6.240, 578s
+batch 31/60: 25 rows, 0 errors, spent so far $6.451, 597s
+batch 32/60: 25 rows, 0 errors, spent so far $6.659, 615s
+batch 33/60: 25 rows, 0 errors, spent so far $6.865, 640s
+batch 34/60: 25 rows, 0 errors, spent so far $7.056, 660s
+batch 35/60: 25 rows, 0 errors, spent so far $7.255, 680s
+batch 36/60: 25 rows, 0 errors, spent so far $7.473, 700s
+batch 37/60: 25 rows, 0 errors, spent so far $7.687, 720s
+batch 38/60: 25 rows, 0 errors, spent so far $7.894, 738s
+batch 39/60: 25 rows, 0 errors, spent so far $8.101, 759s
+batch 40/60: 25 rows, 0 errors, spent so far $8.315, 779s
+batch 41/60: 25 rows, 0 errors, spent so far $8.501, 810s
+batch 42/60: 25 rows, 0 errors, spent so far $8.689, 839s
+batch 43/60: 25 rows, 0 errors, spent so far $8.867, 870s
+batch 44/60: 25 rows, 0 errors, spent so far $9.047, 896s
+batch 45/60: 25 rows, 0 errors, spent so far $9.232, 931s
+batch 46/60: 25 rows, 0 errors, spent so far $9.416, 968s
+batch 47/60: 25 rows, 0 errors, spent so far $9.596, 997s
+batch 48/60: 25 rows, 0 errors, spent so far $9.774, 1030s
+batch 49/60: 25 rows, 0 errors, spent so far $9.957, 1064s
+batch 50/60: 25 rows, 0 errors, spent so far $10.142, 1110s
+batch 51/60: 25 rows, 0 errors, spent so far $10.321, 1137s
+batch 52/60: 25 rows, 0 errors, spent so far $10.503, 1169s
+batch 53/60: 25 rows, 0 errors, spent so far $10.686, 1208s
+batch 54/60: 25 rows, 0 errors, spent so far $10.870, 1244s
+batch 55/60: 25 rows, 0 errors, spent so far $11.049, 1270s
+batch 56/60: 25 rows, 0 errors, spent so far $11.231, 1300s
+batch 57/60: 25 rows, 0 errors, spent so far $11.418, 1333s
+batch 58/60: 25 rows, 0 errors, spent so far $11.600, 1363s
+batch 59/60: 25 rows, 0 errors, spent so far $11.781, 1394s
+batch 60/60: 25 rows, 0 errors, spent so far $11.965, 1422s
+Done. 0 failed jobs (rerun the same command to retry them). Results: C:\Search API Evaluation\results\results.csv
