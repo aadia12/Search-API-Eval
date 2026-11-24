@@ -131,8 +131,8 @@ def run_one(provider, item):
 
 def is_current(row):
     """A row counts as done only if it succeeded under today's exclusion settings for its provider/benchmark."""
-    expected = ";".join(providers.excluded_domains_for(row["provider"], row["benchmark"]))
-    return not row["error"] and row.get("excluded_domains", "") == expected
+    return not row["error"] and providers.exclusion_is_current(
+        row["provider"], row["benchmark"], row.get("excluded_domains", ""))
 
 
 def load_done(path):

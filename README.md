@@ -51,7 +51,9 @@ Open `data/recent_events_2026-11.csv` and set `status` on each row: `ok` to keep
 
 Both public benchmarks are published online, so a search can return a copy of the dataset with the gold answers. A check on three FRAMES questions found 11 of 30 Keenable results, 6 of 30 Parallel and 2 of 30 Exa coming from such sites. For these two benchmarks every provider now excludes, through its own API setting, `huggingface.co`, `hf.co`, `kaggle.com`, `aclanthology.org`, `github.com`, `githubusercontent.com`, `openaipublic.blob.core.windows.net`, `modelscope.cn` and `opendatalab.com` (see `BENCHMARK_LEAK_DOMAINS` in `providers.py`). With the exclusion on, all five providers returned 0 results from those sites. Each row records `excluded_domains`, `leak_results` (should be 0) and `result_urls`.
 
-A result row only counts if it was searched under the current exclusion settings. Older rows are ignored by `summarize.py`, and rerunning `run_eval.py` replaces them.
+The recent-events questions and answers are published in this public repository, so searches on that set exclude `github.com` and `githubusercontent.com` (`GITHUB_DOMAINS` in `providers.py`). The existing recent-events results were searched on 2026-11-23, before the questions were pushed to GitHub on 2026-11-24, so they could not have found the answer key there. They still count (see `LEGACY_EXCLUSIONS_OK`), and any new recent-events run uses the exclusion.
+
+A result row only counts if it was searched under the current exclusion settings, or an earlier setting listed in `LEGACY_EXCLUSIONS_OK`. Other older rows are ignored by `summarize.py`, and rerunning `run_eval.py` replaces them.
 
 ### Wikipedia exclusion
 

@@ -32,10 +32,11 @@ def load(path):
     if "excluded_domains" not in raw.columns:
         raw["excluded_domains"] = ""
     # Only rows searched under today's exclusion settings count; older rows for the same question are ignored.
-    expected = raw.apply(lambda r: ";".join(providers.excluded_domains_for(r["provider"], r["benchmark"])), axis=1)
-    current = raw[raw["excluded_domains"] == expected]
+    is_current = raw.apply(lambda r: providers.exclusion_is_current(r["provider"], r["benchmark"],
+                                                                     r["excluded_domains"]), axis=1)
+    current = raw[is_current]
     ok = current[current["error"] == ""].drop_duplicates(KEY, keep="last")
-    stale = raw[(raw["error"] == "") & (raw["excluded_domains"] != expected)].drop_duplicates(KEY)
+    stale = raw[(raw["error"] == "") & ~is_current].drop_duplicates(KEY)
     stale = stale.merge(ok[KEY], on=KEY, how="left", indicator=True)
     stale_count = int((stale["_merge"] == "left_only").sum())
     if stale_count:

@@ -121,7 +121,15 @@ BENCHMARK_LEAK_DOMAINS = [
     "huggingface.co", "hf.co", "kaggle.com", "aclanthology.org", "github.com", "githubusercontent.com",
     "openaipublic.blob.core.windows.net", "modelscope.cn", "opendatalab.com",
 ]
-LEAK_PROTECTED_BENCHMARKS = {"simpleqa", "frames"}  # our own recent-events set is not published anywhere
+LEAK_PROTECTED_BENCHMARKS = {"simpleqa", "frames"}
+
+# Our own recent-events questions and answers are published in this project's public GitHub repo
+# (pushed 2026-11-24), so searches on that set exclude GitHub.
+GITHUB_DOMAINS = ["github.com", "githubusercontent.com"]
+
+# Earlier exclusion settings whose rows still count. The recent-events rows were searched on 2026-11-23,
+# before the questions were published on GitHub, so they could not have found the answer key there.
+LEGACY_EXCLUSIONS_OK = {"recent": {""}}
 
 
 def excluded_domains_for(provider, benchmark):
@@ -129,9 +137,17 @@ def excluded_domains_for(provider, benchmark):
     if provider == "no_search":
         return []
     domains = list(BENCHMARK_LEAK_DOMAINS) if benchmark in LEAK_PROTECTED_BENCHMARKS else []
+    if benchmark == "recent":
+        domains += GITHUB_DOMAINS
     if benchmark in EXCLUDE_WIKIPEDIA_FOR:
         domains.append(WIKIPEDIA)
     return domains
+
+
+def exclusion_is_current(provider, benchmark, recorded):
+    """True if a row's recorded exclusions match today's setting, or an earlier setting that still counts."""
+    expected = ";".join(excluded_domains_for(provider, benchmark))
+    return recorded == expected or recorded in LEGACY_EXCLUSIONS_OK.get(benchmark, set())
 
 
 def host_matches(url, domains):
